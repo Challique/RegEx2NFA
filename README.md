@@ -5,7 +5,7 @@ build.py
 
 Given a RegEx of a specific format described below,
 build.py builds an equivalent NFA and prints it
-in a specific format
+in a specific format.
 
 RegEx has the following form:
   (1) Union is marked by the symbol "|"
@@ -41,7 +41,7 @@ and an input string, this program simulates
 the reading of the string by the NFA.
 For each symbol read, if by the symbol
 NFA goes into an accept state "Y" is printed,
-if not - "N", accordingly
+if not - "N", accordingly.
 
 For example, for input:
   aababacab
@@ -52,4 +52,5 @@ For example, for input:
 the ouput is:
   YYYYYYYNN
 
+Hope, this will be helpful!
   
