@@ -36,8 +36,8 @@ For example, (ab*c(0|1)*)* would could have the ouput:
 
 run.py
 
-Given an NFA in the format described in build.py
-and an i nput string, this program simulates
+Given an NFA in the format described above
+and an input string, this program simulates
 the reading of the string by the NFA.
 For each symbol read, if by the symbol
 NFA goes into an accept state "Y" is printed,
