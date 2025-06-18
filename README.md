@@ -1,18 +1,19 @@
 # RegEx2NFA
 These programs will help you convert Regular Expressions to their equivalent NFAs and simulate the process of reading an input String by an NFA.  
 
-build.py  
+## build.py  
 
 Given a RegEx of a specific format described below,  
 build.py builds an equivalent NFA and prints it  
 in a specific format.  
 
 RegEx has the following form:  
-  (1) Union is marked by the symbol "|"  
-  (2) Concatenation is defined by adjacency of RegExs  
-  (3) Star is marked by "*"  
+	(1) Union is marked by the symbol "|"  
+	(2) Concatenation is defined by adjacency of RegExs  
+	(3) Star is marked by "*"  
+  
 Also:  
-  (4) Alphabet of the RegEx consists only of small Latin letters  
+	(4) Alphabet of the RegEx consists only of small Latin letters  
   (5) Except the symbols above, curved brackets can be used  
   (6) Emtpy string is marked by "()"  
 Example:  
@@ -36,7 +37,7 @@ For example, (ab*c(0|1)*)* would could have the ouput:
   2 b 1 c 2  
   3 0 2 1 2 a 1  
 
-run.py  
+## run.py  
 
 Given an NFA in the format described above  
 and an input string, this program simulates  
